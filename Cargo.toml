@@ -5,3 +5,4 @@ edition = "2021"
 
 [dependencies]
 lib = { path = "src/lib", package = "lib", verson = "0.1.0"}
+lib_compat1 = { path = "src/lib", package = "lib", verson = "0.2.0"}
