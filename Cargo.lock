@@ -13,9 +13,15 @@ version = "0.2.0"
 source = "git+https://github.com/cove/rust-static-multiversions.git?tag=v0.2.0#f27e68fd49c79e507e5c191234a1ea6a212063b3"
 
 [[package]]
+name = "lib"
+version = "0.3.0"
+source = "git+https://github.com/cove/rust-static-multiversions.git?tag=v0.3.0#841a1e47071922fb2bb2d70cd993d9f41ca15817"
+
+[[package]]
 name = "rust-static-multiversions"
 version = "0.1.0"
 dependencies = [
  "lib 0.1.0",
  "lib 0.2.0",
+ "lib 0.3.0",
 ]
